@@ -2,6 +2,12 @@
 name = "apbf"
 version = "0.1.0"
 authors = ["Koki Kato <koki.kato1994@gmail.com>"]
+description = "Age-Partitioned Bloom Filter"
+homepage = "https://github.com/ajalab/apbf"
+license = "MIT OR Apache-2.0"
+keywords = ["bloom-filter", "collections"]
+categories = ["data-structures"]
+readme = "README.md"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
