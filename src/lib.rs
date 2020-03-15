@@ -1,4 +1,4 @@
-pub mod core;
+mod core;
 pub mod hash;
 
 pub use crate::core::APBF;
