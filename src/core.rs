@@ -160,6 +160,12 @@ where
     pub fn slack(&self) -> u64 {
         (self.k as u64) * self.g
     }
+
+    // Returns generation number, which represents how many insertions will
+    // cause a shift of logical slices on the underlying bit array.
+    pub fn generation(&self) -> u64 {
+        self.g
+    }
 }
 
 #[cfg(test)]
